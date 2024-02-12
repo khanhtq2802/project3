@@ -16,7 +16,7 @@ class ChoTotXeDownloaderMiddleware:  # write by khanh
         self.connection = mysql.connector.connect(
             host="localhost",
             user="khanh",
-            password="tqk14131211",
+            password="password",
             database="motorbike")
         # Creating a cursor object to execute SQL queries
         self.cursor = self.connection.cursor()

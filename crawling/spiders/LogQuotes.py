@@ -17,7 +17,9 @@ class LogquotesSpider(scrapy.Spider):
             formdata={
                 'csrf_token': token,
                 'username': 'khanh.tq2802@outlook.com',
-                'password': 'tqk14131211'},
+                'password': 'password
+                
+                '},
             callback=self.start_crawling)
 
     def start_crawling(self, response):

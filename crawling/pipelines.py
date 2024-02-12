@@ -44,7 +44,7 @@ class QuotesPipeline:  # write by khanh for MySQL
         self.connection = mysql.connector.connect(
             host="localhost",
             user="khanh",
-            password="tqk14131211",
+            password="password",
             database="motorbike"
         )
         self.cursor = self.connection.cursor()
@@ -68,7 +68,7 @@ class ChoTotLinkPipeline:  # write by khanh
         self.connection = mysql.connector.connect(
             host="localhost",
             user="khanh",
-            password="tqk14131211",
+            password="password",
             database="motorbike"
         )
         self.cursor = self.connection.cursor()
@@ -95,7 +95,7 @@ class ChoTotXePipeline:  # write by khanh
         self.connection = mysql.connector.connect(
             host="localhost",
             user="khanh",
-            password="tqk14131211",
+            password="password",
             database="motorbike"
         )
         self.cursor = self.connection.cursor()
